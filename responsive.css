@@ -3,7 +3,7 @@
  .main {
    
    margin:1.5cm;
-   padding:0.5cm;
+   padding:0.2cm;
    border:1px solid black;
    font-size:12px;
    
@@ -12,7 +12,7 @@
   .main img {
     
     height:1cm;
-    width:2cm;
+    width:100%;
     
   }
   
