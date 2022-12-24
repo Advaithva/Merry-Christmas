@@ -44,6 +44,7 @@ body {
   
   position:relative;
   top:6px;
-  right:6px;
+  left:6px;
+  box-shadow:none;
   
 }
