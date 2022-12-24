@@ -8,18 +8,21 @@ body {
   background-image:url(https://th.bing.com/th/id/R.f1178268a55783525abb2398f68aba61?rik=7j8bcylXFd42iA&riu=http%3a%2f%2fwww.turnbacktogod.com%2fwp-content%2fuploads%2f2008%2f12%2fchristmas-animated-gifs-06.gif&ehk=Mtf5ZZyzShBObl1y4e9I6rHywyN%2fHN%2fsoxrZgoIpc%2bY%3d&risl=&pid=ImgRaw&r=0);
   background-size:cover;
   background-position:center;
-  background-color:rgba(200, 165, 234, 0.6);
+  background-color:rgba(234, 165, 160, 0.6);
   background-blend-mode:lighten;
   
 }
 
-.main{ 
+.main { 
   
   margin:3cm 6cm;
   border:3px solid black;
   padding:1.5cm;
   background-color:#fff;
-  font-size:20px
+  font-size:20px;
+  animation-name:anim;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
   
 }
 
@@ -51,3 +54,33 @@ body {
   box-shadow:none;
   
 }
+
+@keyframes anim {
+  
+ 0% {
+   
+   color:black;
+   
+  }
+  
+ 33% {
+   
+   color:red;
+   
+  }
+  
+ 66% {
+   
+   color:green;
+   
+  }
+  
+ 100% {
+   
+   color:blue;
+   
+  }
+  
+}
+
+
