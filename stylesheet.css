@@ -24,5 +24,14 @@ body {
   padding:5px;
   border:1px solid black;
   background-color:#acbdff;
+  font-size:20px;
+  height:3cm;
+  width:6cm;
+  
+}
+
+.btn:hover {
+  
+  background-color:#5674c3; 
   
 }
