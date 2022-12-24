@@ -29,7 +29,7 @@ body {
   height:1.5cm;
   width:4cm;
   box-shadow: 6px 6px 0 0 #000010;
-	border-radius:15px;
+  border-radius:15px;
   
 }
 
@@ -45,6 +45,6 @@ body {
   position:relative;
   top:6px;
   left:6px;
-  box-shadow:none;
+  box-shadow:0px;
   
 }
