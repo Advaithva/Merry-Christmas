@@ -9,4 +9,47 @@
    
   }
   
+  .main img {
+    
+    height:1cm;
+    width:2cm;
+    
+  }
+  
+  .btn {
+    
+    height:0.7cm;
+    width:1.5cm;
+    font-size:12px;
+    
+  }
+  
+}
+
+@media (max-width: 1000px) {
+  
+ .main {
+   
+   margin:3cm;
+   padding:1cm;
+   border:2px solid black;
+   font-size:16px;
+   
+  }
+  
+  .main img {
+    
+    height:1.5cm;
+    width:3cm;
+    
+  }
+  
+  .btn {
+    
+    height:1cm;
+    width:3cm;
+    font-size:16px;
+    
+  }
+  
 }
