@@ -25,9 +25,10 @@ body {
   border:1px solid black;
   background-color:#acbdff;
   font-size:20px;
-  height:2cm;
-  width:5cm;
-  box-shadow:;
+  height:1.5cm;
+  width:4cm;
+  box-shadow: 6px 6px 0 0 #000010;
+	border-radius:15px;
   
 }
 
@@ -35,5 +36,13 @@ body {
   
   background-color:#5674c3; 
   color:#ccc;
+  
+}
+
+.btn:active {
+  
+  position:relative;
+  top:6px;
+  right:6px;
   
 }
